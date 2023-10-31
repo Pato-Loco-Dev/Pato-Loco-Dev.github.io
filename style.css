@@ -1,0 +1,45 @@
+.section-body{
+    margin-top: 80px;
+    min-height: 40%;
+}
+
+.box{
+    text-align: center;
+    margin: 20px 400px 20px 400px;
+    padding: 5px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(7, 18, 31);
+    display: grid;
+}
+
+input, label, button{
+    margin: 3px;
+    font-size: 14px;
+    display:inline-block;
+
+}
+
+.box-titulo{
+        text-align: center;
+    }
+
+button{
+    color: white;
+    background-color: rgba(7, 18, 31);
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+
+img {
+    max-width: 200px;
+    height: 120px;
+}
+
+form {
+    display: grid;
+
+}
+
+

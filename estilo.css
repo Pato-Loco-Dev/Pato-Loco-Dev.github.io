@@ -1,0 +1,80 @@
+table,
+td {
+  border: 1px solid #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px;
+}
+
+input[type="text"],
+select,
+input[type="date"],
+input[type="file"] {
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #07121f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    grid-column: span 2;
+}   
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.div-conteudo{
+    margin: 90px 30px 30px 30px;
+}
+
+.foto-corp{
+    width: 80%;
+    margin: 80px 30px 80px 30px;
+}
+
+#centralizar{
+    text-align: center;
+}
+
+.foto-veiculos{
+    width: 80%;
+    margin: 80px 30px 80px 30px;
+}
+
+#foto {
+    padding-left: 420px;
+}
+
+

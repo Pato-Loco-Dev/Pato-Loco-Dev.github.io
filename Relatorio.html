@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cabecalho1.css">
+    <link rel="stylesheet" href="footer2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+
+    <title>Cadastro empresas</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+          <hgroup>
+            <img src="Imagens/logo.png" alt="" id="logo">
+          </hgroup>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <section class="site">
+        <nav>
+          <a href="Home.html">Home</a>
+          <a href="Carros-a-venda.html">Veículos Disponíveis</a>
+          <a href="MenuCorporativo.html">Corporativo</a>
+          <a href="Cadastro-clientes.html">Cadastre-se</a>
+        </nav>
+      </section>
+
+    <!--Conteúdo-->
+
+        <div class="div-conteudo" > 
+        <h2>Relatórios</h2>
+
+            <div>
+            <form class="formulario-funcionarios">
+
+         <label for="InicioPeriodo">Início:</label>
+         <input type="date" id="InicioPeriodo" name="InicioPeriodo" >
+
+         <label for="FimPeriodo">Fim:</label>
+         <input type="date" id="FimPeriodo" name="FimPeriodo" >
+             <button>Pesqusiar</button>
+             <button><a href="MenuCorporativo.html">Voltar</a></button>
+
+
+     </form>
+     </div>
+     <br>
+
+        <h3>Carros vendidos - Quantidade de vendas por modelo</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantidade</th>
+                    <th>Carro</th>
+                    <th>Ano/Mês</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Chevette</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Opala</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>F100</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fusca</td>
+                    <td>07/2023</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ômega</td>
+                    <td>07/2023</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Veraneio </td>
+                    <td>07/2023</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h3>Carros vendidos - Quantidade por cliente</h3>
+            <table>
+            <thead>         
+                <tr>
+                <th>Quantidade</th>
+                <th>Modelo do Carro</th>
+                <th>Cliente CPF/CNPJ</th>
+                <th>Mês/Ano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chevette</td>
+                <td>123.456.789-00</td>
+                <td>08/2023</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Chevette</td>
+                <td>987.654.321-00</td>
+                <td>08/2023</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Opala</td>
+                <td>345.678.901-12</td>
+                <td>08/2023</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>F1000</td>
+                <td>567.890.123-45</td>
+                <td>08/2023</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fusca</td>
+                <td>234.567.890-12</td>
+                <td>07/2023</td>
+            </tr>
+                <td>1</td>
+                <td>Ômega</td>
+                <td>514.400.810-00</td>
+                <td>07/2023</td>
+            </tr>            
+            </tr>
+                <td>1</td>
+                <td>Veraneio</td>
+                <td>158.114.480-66</td>
+                <td>07/2023</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h3>Carros vendidos - Quantidade por cidade</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Quantidade de Carros Vendidos</th>
+                    <th>Mês/Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo - SP</td>
+                    <td>2</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>São José dos Pinhais - PR</td>
+                    <td>1</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>Curitiba - PR</td>
+                    <td>1</td>
+                    <td>08/2023</td>
+                </tr>
+                <tr>
+                    <td>Porto Alegre - RS</td>
+                    <td>2</td>
+                    <td>07/2023</td>
+                </tr>
+                <tr>
+                    <td>Belo Horizonte - MG</td>
+                    <td>1</td>
+                    <td>07/2023</td>
+                </tr>
+                <tr>
+                    <td>Pato Branco</td>
+                    <td>1</td>
+                    <td>07/2023</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <!--Fim de conteúdo-->
+    
+    <div>
+        <footer>
+            <div class="footer-content">
+                <h3>Concessionária Armageddon</h3>
+                  <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; <a href="#">Concessionária Armageddon</a>  </p>
+            </div>
+        </footer>
+        </div>
+    </body>
+    </html>
+</body>
+</html>

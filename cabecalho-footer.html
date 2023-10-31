@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+          <hgroup>
+            <img src="./Pictures/logo.png" alt="" id="logo">
+          </hgroup>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <section class="site">
+        <nav>
+          <a href="Home.html">Home</a>
+          <a href="Carros-a-venda.html">Veículos Disponíveis</a>
+          <a href="">Page</a>
+          <a href="">Page</a>
+        </nav>
+      </section>
+
+      <section class="container">
+        <form action="#" class="form">
+          <div class="input-box">
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Insira seu nome completo" required />
+          </div>
+          <div class="input-box">
+            <label>Endereço de E-mail</label>
+            <input type="text" placeholder="Insira seu endereço de E-mail" required />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Número de Telefone</label>
+              <input type="tel" placeholder="Insira seu número de Telefone" required maxlength="11"/>
+            </div>
+            <div class="input-box">
+              <label>Data de Nascimento</label>
+              <input type="date" placeholder="Insira sua data de Nascimento" required />
+            </div>
+          </div>
+          <div class="caixa-genero">
+            <h3>Gênero</h3>
+            <div class="opcao-genero">
+              <div class="genero">
+                <input type="radio" id="check-masculino" name="genero" checked />
+                <label for="check-masculino">Masculino</label>
+              </div>
+              <div class="genero">
+                <input type="radio" id="check-feminino" name="genero" />
+                <label for="check-feminino">Feminino</label>
+              </div>
+              <div class="genero">
+                <input type="radio" id="check-outro" name="genero" />
+                <label for="check-outro">Prefiro não dizer</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box endereco">
+            <label>Endereço</label>
+            <div class="column">
+            <input type="text" class="campos-endereco" placeholder="Logradouro" required />
+            <input type="text" class="campos-endereco" placeholder="Bairro" required />
+            <input type="text" class="campos-endereco" placeholder="Numero" required />
+            <input type="text" class="campos-endereco" placeholder="Complemento" required />
+            </div>  
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden>País</option>
+                  <option>Brasil</option>
+                  <option>Paraguai</option>
+                  <option>Argentina</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Cidade" required />
+            </div>
+            <div class="column">
+              <input type="text" placeholder="Estado" required />
+              <input type="text" placeholder="CEP" required maxlength="9"/>
+            </div>
+          </div>
+          <button>Cadastre-se</button>
+        </form>
+      </section>
+
+
+
+
+
+
+
+      <footer>
+        <div class="footer-content" id="footer">
+            <h3>Concessionária Armageddon</h3>
+              <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Concessionária Armageddon</a>  </p>
+        </div>
+    </footer>
+</body>
+</html>

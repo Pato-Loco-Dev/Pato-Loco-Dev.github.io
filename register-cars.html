@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cabecalho1.css">
+    <link rel="stylesheet" href="footer2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Registrar veículo</title>
+
+</head>
+<body>
+    <header>
+        <div class="content">
+          <hgroup>
+            <img src="./Imagens/logo.png" alt="" id="logo">
+          </hgroup>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <section class="site">
+        <nav>
+          <a href="Home.html">Home</a>
+          <a href="Carros-a-venda.html">Veículos Disponíveis</a>
+          <a href="MenuCorporativo.html">Corporativo</a>
+          <a href="Cadastro-clientes.html">Cadastre-se</a>
+        </nav>
+      </section>
+
+        <!--FIM DO CABEÇALHO-->
+
+        <!--INICIO DO CONTEÚDO-->
+
+        <section class="section-body">
+            <div class="box">
+                <h1>Registrar veiculo</h1>
+                <form action="register-car" id="form-adiciona">
+                    <label for="fabricante">Fabricante: </label>
+                    <input type="text" id="fabricante" name="fabricante"><br> 
+
+                    <label for="modelo"> Modelo: </label>
+                    <input type="text" id="modelo" name="modelo"> <br> 
+
+                    <label for="anoFab">Ano de Fabricação:</label>
+                    <input type="number" id="anoFab" name="anoFab"> <br> 
+
+                    <label for="motor">Motor: </label>
+                    <input type="text" id="motor" name="motor"> <br>
+
+                    <label for="litragem">Litragem: </label>
+                    <input type="text" id="litragem" name="litragem"> <br> 
+
+                    <label for="valor">Valor em reais: </label>
+                    <input type="number" id="valor" name="valor"><br>
+
+                    <label for="foto">Inserir link da foto: </label>
+                    <input type="text" id="foto" name="foto"><br>
+
+                    <button id="register-button">Inserir</button>
+                </form>
+
+            </div>
+
+        </section>
+        <!--FIM DO CONTEÚDO-->
+        <div>
+            <footer>
+                <div class="footer-content">
+                    <h3>Concessionária Armageddon</h3>
+                      <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy; <a href="#">Concessionária Armageddon</a>  </p>
+                </div>
+            </footer>
+            </div>
+        <script src="./JS/register.js"></script>
+
+</body>
+</html>
